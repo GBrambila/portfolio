@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /*Especifico pro potfólio */
+    /*Lado a lado e com cards se ajustando conforme tamanho da tela*/
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 4px solid black;
+      padding: 16px;
+      width: 480px
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+
+    /*Moldura da imagem*/
+    .thumb {
+      height: 240px;
+      background: white;
+      border: 4px solid black;
+      margin-bottom: 12px
+    }
+
+    /*Força tamanho da imagem na moldura*/
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block
+    }
+
+    .links a {
+      text-decoration: underline;
+      font-weight: bold
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="index.html">INÍCIO</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
+        <li><a href="formacao.html">FORMAÇÃO</a></li>
+        <li><a class="ativo" href="portfolio.html">PORTFÓLIO</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>PORTFÓLIO</h1>
+
+    <section class="bloco">
+      <h2>PROJETOS</h2>
+        <!--Preferi div nessa parte pois não achei que algo seria melhor que genérico-->
+      <div class="grid">
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/img/superrpg.png" alt="Imagem de um vendedor com código ao lado">
+          </div>
+          <h3>Hybrid AI SuperRpg</h3>
+          <p>Junção de Algoritmo Genético e Pesquisa Tabu na resolução de um jogo de RPG de escolhas, ele usa AG para a parte de exploração maior de resolução e Tabu para movimentos locais mais precisos, para refinar o resultado.</p>
+          <p class="links">
+            <a href="https://github.com/GBrambila/Hybrid_AI_SuperRPG" target="_blank" rel="noopener">Código no
+              GitHub</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/img/BrawlersStats.png" alt="Imagem de Stats">
+          </div>
+          <h3>BrawlersStats</h3>
+          <p>Projeto para buscar Brawlers ideais com base no que o Usuário possui no jogo Brawl Stars aplicando modelo linear e logarítmico no WR e PR e comparando com os do jogador em cada mapa.
+          </p>
+          <p class="links">
+            <a href="https://github.com/GBrambila/BrawlersStats" target="_blank" rel="noopener">Código no GitHub</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/img/blockclassifier.png" alt="Imagem do classificador do Brawl Mapper">
+          </div>
+          <h3>Brawl Mapper</h3>
+          <p>Um sistema de classificação e identificação automática de blocos dos mapas de Brawl Stars, feito com uma NN. O modelo realiza a predição dos blocos e quando a confiança é baixa o usuário pode intervir escolhendo a categoria correta. Esse feedback é incorporado ao treino e ajuda a rede se especializar progressivamente.</p>
+          <p class="links">
+            <a href="https://github.com/GBrambila/BrawlMapper" target="_blank" rel="noopener">Código no GitHub</a>
+          </p>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/img/combodice.png" alt="Imagem de stats e numeros de vitória com combinações de dados">
+          </div>
+          <h3>Combo Dices KCD2</h3>
+          <p>Projeto que busca as melhores combinações de dados modificados no jogo Farkel de KCD2 através de uma disputa entre uma estratégia padrão feita por mim e uma Deep Q-Network.</p>
+          <p class="links">
+            <a href="https://github.com/GBrambila/ComboDicesKCD2" target="_blank" rel="noopener">Código no GitHub</a>
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2025 Gabriel Brambila</footer>
+</body>
+
+</html>

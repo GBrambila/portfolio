@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Início</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!--Uso padrão do header no meu projeto-->
+  <!--Tive dificuldades em entender a necessidade de elementos como headers e footers, em vez de apenas div, depois percebi a importância de semântica e porque foi recomendado nas aulas-->
+  <header>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a class="ativo" href="index.html">INÍCIO</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
+        <li><a href="formacao.html">FORMAÇÃO</a></li>
+        <li><a href="portfolio.html">PORTFÓLIO</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Início</h1>
+
+    <section class="bloco">
+      <h2>Bem-vindo</h2>
+      <p>Seja bem-vindo ao meu portfólio. Aqui apresento um pouco sobre mim, meus projetos e minhas formações. Sinta-se
+        livre para entrar em contato.</p>
+    </section>
+
+    <hr class="divisor">
+
+    <section class="bloco">
+      <h2>Destaque rápido</h2>
+      <ul>
+        <!--Descoberta do strong me ajudou bastante, antes cheguei a usar h1-h6 para tudo, pois era prático mas sabia que era errado-->
+        <li><strong>Sobre mim:</strong> um resumo do que faço e do que curto estudar.</li>
+        <li><strong>Formação:</strong> cursos, graduação e idiomas.</li>
+        <li><strong>Portfólio:</strong> projetos com link para demo e código.</li>
+        <li><strong>Contato:</strong> formulário simples (nome, e-mail, mensagem).</li>
+      </ul>
+    </section>
+
+    <hr class="divisor">
+    <!--Usei essa seção só para inicio pois achei que combinava mais-->
+    <section class="bloco">
+      <h2>Atalhos</h2>
+      <p>
+        <a href="sobre.html">Ir para Sobre mim</a> •
+        <a href="formacao.html">Ir para Formação</a> •
+        <a href="portfolio.html">Ir para Portfólio</a> •
+        <a href="contato.html">Ir para Contato</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>© 2025 Gabriel Brambila</footer>
+</body>
+
+</html>

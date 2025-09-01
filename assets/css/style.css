@@ -1,0 +1,109 @@
+/* Escolhi deixar o que pode ser generalizado aqui, e se 
+precisar de algo especifico coloco no proprio html*/
+/*Todos px seguem multiplos de 4*/
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: black;
+}
+
+/*Header, a ideia e do site em geral é ser simples com um estilo meio brutalista*/
+/*Generalização do menu*/
+header {
+  border-bottom: 4px solid black;
+}
+
+.nav {
+  padding: 12px 0
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+/*Links do menu*/
+.menu a {
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: bold;
+  letter-spacing: .4px;
+  padding: 8px 12px;
+  border: 4px solid transparent;
+}
+
+/*Inversão de cores dos links, parte importante pro estilo*/
+.menu a:hover {
+  background: black;
+  color: white
+}
+
+.menu a.ativo {
+  background: black;
+  color: white
+}
+
+/*Deixa como header section etc mais centralizado, sem ficar tanto nas bordas da pagina*/
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-inline: 16px;    
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-size: 32px;
+  margin: 20px 0;
+  border-bottom: 4px solid black;
+  display: inline-block;
+}
+
+/*Generalização de textos e listas, importante pro estilo das caixas, pro tema*/
+.bloco {
+  background: white;
+  border: 4px solid black;
+  padding: 20px
+}
+
+.bloco h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  border-left: 8px solid black;
+  padding-left: 12px;
+}
+
+.bloco ul {
+  margin: 0;
+  padding-left: 24px;
+  list-style: square outside
+}
+
+.divisor {
+  border: 0;
+  height: 4px;
+  background: black;
+  margin: 24px 0
+}
+
+footer {
+  border-top: 4px solid black;
+  text-align: center;
+  padding: 16px 8px;
+  font-weight: normal;
+  margin-top: 48px
+}
