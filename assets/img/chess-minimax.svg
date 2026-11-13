@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+  <rect width="960" height="480" fill="#eceae3"/>
+  <rect x="24" y="22" width="912" height="436" rx="10" fill="#fafaf7" stroke="#24282d" stroke-width="3"/>
+  <text x="54" y="65" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#24282d">CHESS MINIMAX</text>
+  <text x="55" y="95" font-family="Arial,sans-serif" font-size="17" letter-spacing="1" fill="#626c73">MINIMAX  +  PODA ALFA-BETA</text>
+  <rect x="54" y="118" width="306" height="306" fill="#2c3532"/>
+<rect x="54" y="118" width="38" height="38" fill="#e9e5d8"/>
+<rect x="92" y="118" width="38" height="38" fill="#7b957d"/>
+<rect x="130" y="118" width="38" height="38" fill="#e9e5d8"/>
+<rect x="168" y="118" width="38" height="38" fill="#7b957d"/>
+<rect x="206" y="118" width="38" height="38" fill="#e9e5d8"/>
+<rect x="244" y="118" width="38" height="38" fill="#7b957d"/>
+<rect x="282" y="118" width="38" height="38" fill="#e9e5d8"/>
+<rect x="320" y="118" width="38" height="38" fill="#7b957d"/>
+<rect x="54" y="156" width="38" height="38" fill="#7b957d"/>
+<rect x="92" y="156" width="38" height="38" fill="#e9e5d8"/>
+<rect x="130" y="156" width="38" height="38" fill="#7b957d"/>
+<rect x="168" y="156" width="38" height="38" fill="#e9e5d8"/>
+<rect x="206" y="156" width="38" height="38" fill="#7b957d"/>
+<rect x="244" y="156" width="38" height="38" fill="#e9e5d8"/>
+<rect x="282" y="156" width="38" height="38" fill="#7b957d"/>
+<rect x="320" y="156" width="38" height="38" fill="#e9e5d8"/>
+<rect x="54" y="194" width="38" height="38" fill="#e9e5d8"/>
+<rect x="92" y="194" width="38" height="38" fill="#7b957d"/>
+<rect x="130" y="194" width="38" height="38" fill="#e9e5d8"/>
+<rect x="168" y="194" width="38" height="38" fill="#7b957d"/>
+<rect x="206" y="194" width="38" height="38" fill="#e9e5d8"/>
+<rect x="244" y="194" width="38" height="38" fill="#7b957d"/>
+<rect x="282" y="194" width="38" height="38" fill="#e9e5d8"/>
+<rect x="320" y="194" width="38" height="38" fill="#7b957d"/>
+<rect x="54" y="232" width="38" height="38" fill="#7b957d"/>
+<rect x="92" y="232" width="38" height="38" fill="#e9e5d8"/>
+<rect x="130" y="232" width="38" height="38" fill="#7b957d"/>
+<rect x="168" y="232" width="38" height="38" fill="#e9e5d8"/>
+<rect x="206" y="232" width="38" height="38" fill="#7b957d"/>
+<rect x="244" y="232" width="38" height="38" fill="#e9e5d8"/>
+<rect x="282" y="232" width="38" height="38" fill="#7b957d"/>
+<rect x="320" y="232" width="38" height="38" fill="#e9e5d8"/>
+<rect x="54" y="270" width="38" height="38" fill="#e9e5d8"/>
+<rect x="92" y="270" width="38" height="38" fill="#7b957d"/>
+<rect x="130" y="270" width="38" height="38" fill="#e9e5d8"/>
+<rect x="168" y="270" width="38" height="38" fill="#7b957d"/>
+<rect x="206" y="270" width="38" height="38" fill="#e9e5d8"/>
+<rect x="244" y="270" width="38" height="38" fill="#7b957d"/>
+<rect x="282" y="270" width="38" height="38" fill="#e9e5d8"/>
+<rect x="320" y="270" width="38" height="38" fill="#7b957d"/>
+<rect x="54" y="308" width="38" height="38" fill="#7b957d"/>
+<rect x="92" y="308" width="38" height="38" fill="#e9e5d8"/>
+<rect x="130" y="308" width="38" height="38" fill="#7b957d"/>
+<rect x="168" y="308" width="38" height="38" fill="#e9e5d8"/>
+<rect x="206" y="308" width="38" height="38" fill="#7b957d"/>
+<rect x="244" y="308" width="38" height="38" fill="#e9e5d8"/>
+<rect x="282" y="308" width="38" height="38" fill="#7b957d"/>
+<rect x="320" y="308" width="38" height="38" fill="#e9e5d8"/>
+<rect x="54" y="346" width="38" height="38" fill="#e9e5d8"/>
+<rect x="92" y="346" width="38" height="38" fill="#7b957d"/>
+<rect x="130" y="346" width="38" height="38" fill="#e9e5d8"/>
+<rect x="168" y="346" width="38" height="38" fill="#7b957d"/>
+<rect x="206" y="346" width="38" height="38" fill="#e9e5d8"/>
+<rect x="244" y="346" width="38" height="38" fill="#7b957d"/>
+<rect x="282" y="346" width="38" height="38" fill="#e9e5d8"/>
+<rect x="320" y="346" width="38" height="38" fill="#7b957d"/>
+<rect x="54" y="384" width="38" height="38" fill="#7b957d"/>
+<rect x="92" y="384" width="38" height="38" fill="#e9e5d8"/>
+<rect x="130" y="384" width="38" height="38" fill="#7b957d"/>
+<rect x="168" y="384" width="38" height="38" fill="#e9e5d8"/>
+<rect x="206" y="384" width="38" height="38" fill="#7b957d"/>
+<rect x="244" y="384" width="38" height="38" fill="#e9e5d8"/>
+<rect x="282" y="384" width="38" height="38" fill="#7b957d"/>
+<rect x="320" y="384" width="38" height="38" fill="#e9e5d8"/>
+<text x="225" y="147" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♚</text>
+<text x="149" y="185" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♟</text>
+<text x="263" y="185" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♟</text>
+<text x="187" y="223" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♞</text>
+<text x="225" y="261" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♙</text>
+<text x="149" y="299" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♗</text>
+<text x="263" y="337" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♘</text>
+<text x="301" y="375" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♙</text>
+<text x="225" y="413" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♔</text>
+<text x="73" y="413" text-anchor="middle" fill="#222" stroke="#fff" stroke-width=".5" font-size="32" font-family="DejaVu Sans,Arial,sans-serif">♖</text>
+
+ <rect x="385" y="118" width="524" height="306" rx="8" fill="#fff" stroke="#c2c5c1" stroke-width="2"/>
+ <text x="410" y="151" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#273129">ÁRVORE DE JOGADAS</text>
+ <g stroke="#6c8a72" stroke-width="4" fill="none">
+ <path d="M648 183 L512 249 M648 183 L648 249 M648 183 L782 249"/>
+ <path d="M512 261 L456 334 M512 261 L562 334"/>
+ <path d="M648 261 L612 334 M648 261 L684 334"/>
+ <path d="M782 261 L745 334 M782 261 L850 334"/>
+ </g>
+ <circle cx="648" cy="184" r="20" fill="#233b2f"/><text x="648" y="191" text-anchor="middle" font-size="18" fill="white" font-family="Arial,sans-serif">MAX</text>
+ <g fill="#6f977a"><circle cx="512" cy="250" r="19"/><circle cx="648" cy="250" r="19"/><circle cx="782" cy="250" r="19"/></g>
+ <g fill="white" text-anchor="middle" font-family="Arial,sans-serif" font-size="13"><text x="512" y="255">MIN</text><text x="648" y="255">MIN</text><text x="782" y="255">MIN</text></g>
+ <g fill="#e6efdf" stroke="#7eab84" stroke-width="2"><rect x="438" y="333" width="36" height="31" rx="4"/><rect x="543" y="333" width="36" height="31" rx="4"/><rect x="593" y="333" width="36" height="31" rx="4"/><rect x="665" y="333" width="36" height="31" rx="4"/><rect x="727" y="333" width="36" height="31" rx="4"/></g>
+ <rect x="831" y="333" width="36" height="31" rx="4" fill="#f5e5e1" stroke="#b96d62" stroke-width="2"/>
+ <g text-anchor="middle" fill="#294331" font-size="15" font-family="Arial,sans-serif"><text x="456" y="355">+3</text><text x="561" y="355">+1</text><text x="611" y="355">+2</text><text x="683" y="355">0</text><text x="745" y="355">+4</text></g>
+ <text x="849" y="355" text-anchor="middle" font-size="17" fill="#9c5148" font-family="Arial,sans-serif">✕</text>
+ <text x="413" y="402" font-family="Arial,sans-serif" font-size="17" fill="#6d736d">Busca e avaliação de movimentos</text>
+</svg>

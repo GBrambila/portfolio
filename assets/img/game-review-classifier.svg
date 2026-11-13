@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+  <rect width="960" height="480" fill="#e8ecf1"/>
+  <rect x="24" y="22" width="912" height="436" rx="10" fill="#fafaf7" stroke="#24282d" stroke-width="3"/>
+  <text x="54" y="65" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#24282d">GAME REVIEW CLASSIFIER</text>
+  <text x="55" y="95" font-family="Arial,sans-serif" font-size="17" letter-spacing="1" fill="#626c73">TF-IDF  +  NAIVE BAYES  |  ANÁLISE DE TEXTO</text>
+
+  <rect x="54" y="124" width="432" height="294" rx="8" fill="white" stroke="#b2bbc6" stroke-width="2"/>
+  <text x="75" y="163" fill="#25303c" font-size="19" font-weight="700" font-family="Arial,sans-serif">AVALIAÇÕES DE JOGOS</text>
+  <rect x="74" y="186" width="392" height="85" rx="7" fill="#eff4f2"/>
+  <text x="89" y="218" fill="#24362e" font-size="18" font-family="Arial,sans-serif">“Muito divertido e desafiador!”</text>
+  <text x="89" y="248" fill="#2e9869" font-size="17" font-family="Arial,sans-serif">POSITIVA</text>
+  <rect x="74" y="287" width="392" height="85" rx="7" fill="#f7eeee"/>
+  <text x="89" y="319" fill="#3d3030" font-size="18" font-family="Arial,sans-serif">“Travamentos e muitos bugs.”</text>
+  <text x="89" y="350" fill="#b95b53" font-size="17" font-family="Arial,sans-serif">NEGATIVA</text>
+  <path d="M498 267 L574 267" stroke="#617386" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="572,255 594,267 572,279" fill="#617386"/>
+  <rect x="615" y="124" width="293" height="294" rx="8" fill="#223346"/>
+  <text x="640" y="164" fill="#eff6fc" font-size="21" font-weight="700" font-family="Arial,sans-serif">CLASSIFICAÇÃO</text>
+  <text x="640" y="212" fill="#9db1c5" font-size="18" font-family="Arial,sans-serif">Sentimento estimado</text>
+  <rect x="642" y="235" width="240" height="31" rx="5" fill="#496174"/>
+  <rect x="642" y="235" width="189" height="31" rx="5" fill="#5da883"/>
+  <text x="644" y="297" fill="#cce6d7" font-size="20" font-family="Arial,sans-serif">POSITIVO</text>
+  <text x="644" y="341" fill="#9db1c5" font-size="18" font-family="Arial,sans-serif">Classe: 1 / 0</text>
+  <text x="644" y="383" fill="#b4c8da" font-size="16" font-family="Arial,sans-serif">Exemplo ilustrativo</text>
+</svg>
